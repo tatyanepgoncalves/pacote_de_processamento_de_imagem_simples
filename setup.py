@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="simple_image_processor",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Tatyane Gonçalves",
+    author_email="tatyanegoncalves023@gmail.com",
+    description="Um pacote simples para processamento de imagens.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/tatyanepgoncalves/pacote_de_processamento_de_imagem_simples"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
